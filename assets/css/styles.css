@@ -283,6 +283,9 @@ a {
     display: flex;
     gap: 200px;
 }
+.features .features-item {
+    width: 224px;
+}
 .features .features-item .sub-title {
     margin: 26px 0 16px 0;
     color: #0D1111;
@@ -290,11 +293,10 @@ a {
     font-weight: 600;
 }
 .features .features-item .desc {
-    width: 168px;
     color: #9DA6A5;
     font-size: 1.6rem;
     font-weight: 400;
-    line-height: 1.69;
+    line-height: 1.6875;
 }
 
 
