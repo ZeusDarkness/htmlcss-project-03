@@ -82,6 +82,7 @@ a {
     border: 1px solid #1EBFC1;
 }
 .header .body .action-btn:hover {
+    transition: 0.6s ease-in-out;
     background-color: var(--primary-color);
     color: #FFF;
 }
@@ -135,6 +136,7 @@ a {
     color: var(--primary-color);
 }
 .hero .content-block .watch-video:hover {
+    transition: 0.6s ease-in-out;
     background-color: var(--primary-color);
     color: #FFF;
 }
@@ -249,4 +251,50 @@ a {
     font-size: 1rem;
     font-weight: 500;
 }
+/* Features */
+.features {
+    padding: 79px 0;
+    margin-top: 51px;
+}
+.features .features-content {
+    width: 50%;
+}
+.features .featurs-label {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.features .features-title {
+    margin-top: 18px;
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+.features .features-desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.features .features-list {
+    margin-top: 80px;
+    display: flex;
+    gap: 200px;
+}
+.features .features-item .sub-title {
+    margin: 26px 0 16px 0;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.features .features-item .desc {
+    width: 168px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+}
+
 
