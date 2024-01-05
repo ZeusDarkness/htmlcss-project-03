@@ -29,6 +29,13 @@ a {
     padding: 20px 41px 21px;
     border-radius: 14px;
     background: #2AC9BF;
+    border: 1px solid var(--primary-color);
+}
+.btn:hover {
+    background: #FFF;
+    color: var(--primary-color);
+    background-color: #FFF;
+    transition: 0.6s ease-in-out;
 }
 .label {
     color: #767E7E;
@@ -531,4 +538,34 @@ a {
     width: 110px;
     height: 110px;
 }
-
+/* Cta */
+.cta {
+    margin-top: 51px;
+    padding: 76px 289px 88px 135px;
+    background: #DEF6F5;
+}
+.cta .cta-body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+.cta .cta-title {
+    width: 420px;
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.cta .cta-desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+/* .cta .cta-btn {
+    margin-left: 451px;
+} */
+.cta .cta-btn:hover {
+    background: #FFF;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
